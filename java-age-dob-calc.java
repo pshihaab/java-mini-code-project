@@ -47,7 +47,7 @@ public class AgeDobCalculator {
         String[] parts = ageString.split(dlc);
         if (parts.length != 3) {
             throw new IllegalArgumentException("Invalid age format. Use 'AGE=YY" + dlc + "MM" + dlc + "DD'.");
-        } 
+        }
 
         int years = Integer.parseInt(parts[0]);
         int months = Integer.parseInt(parts[1]);
